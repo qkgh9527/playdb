@@ -18,4 +18,8 @@ public class HomeController extends Controller {
         return ok(views.html.index.render());
     }
 
+    public Result show() {
+      return ok("show my name");
+    }
+
 }
